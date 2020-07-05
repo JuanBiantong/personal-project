@@ -1,0 +1,13 @@
+
+.works-container{
+    padding-top: 3%;
+    position: relative;
+    width: 90%;
+    margin: 0 5%;
+    background-color:#fff;
+    border-radius: 0.5vh;
+    text-align: center;
+    height:auto;
+    top: -10vh;
+    padding: 5%;
+}

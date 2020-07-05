@@ -1,0 +1,128 @@
+
+.about-container{
+    padding-top: 3%;
+    position: relative;
+    width: 90%;
+    margin: 0 5%;
+    background-color:#fff;
+    border-radius: 0.5vh;
+    text-align: center;
+    height:auto;
+    top: -10vh;
+}
+
+
+.about-container .experience{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    width: 70%;
+    margin: auto;
+
+}
+.about-container .experience .left{
+    width: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3%;
+    margin-bottom: 3%;
+    box-shadow: 0 0 0.5vw 0.1vw #91919196;
+    border-radius: 2vh;
+}
+.about-container .experience .left:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 0.5vw 0.1vw rgba(0, 140, 186, 0.5);
+}
+
+.about-container .experience .right:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 0.5vw 0.1vw rgba(0, 140, 186, 0.5);
+}
+.about-container .experience .right{
+    width: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3%;
+    margin-bottom: 3%;
+    box-shadow: 0 0 0.5vw 0.1vw #91919196;
+    border-radius: 2vh;
+}
+.about-container .experience img{
+    width: 35%;
+    padding: 10% 0;
+}
+
+.about-container .experience .text-left{
+    width: 60%;
+    text-align: right;
+    padding-top: 15%;
+}
+.about-container .experience .text-right{
+    width: 60%;
+    text-align: left;
+    padding-top: 15%;
+}
+
+.skills {
+    width: 100%;
+    background-color: #0f0f0f;
+    padding-bottom: 5%;
+    color: #f1f1f1;
+}
+
+.skills .skill_character h2 {
+    height: fit-content;
+    margin: 3% 20%;
+}
+.skills .skill_character {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.skills .skill_character .skill{
+    font-weight: bold;
+    width: 40% ;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .skills .skill_character .character{
+    font-weight: bold;
+    width:40% ;
+ 
+  }
+.skills .skill_character ul li {
+    display: flex;
+  margin-bottom: 10px;
+  color: #f1f1f1;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.skills .skill_character ul li .skill_name {
+    width: 30%;
+}
+
+.skills .skill_character ul li .skill_progress {
+    width: 60%;
+    height: 0.8vw;
+    background:#2a353d;
+    position: relative;
+    margin-right: 2%;
+    
+  }
+
+  .skills .skill_character ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:#239bfc;
+  }

@@ -1,0 +1,58 @@
+.home-container{
+    position: relative;
+    width: 70%;
+    margin: 0 5%;
+    padding: 13vh 10% 0 10%;
+    background-image: url('../image/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 0.5vh;
+    text-align: center;
+    top: -10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.home-container .intro{
+    width: 50%;
+    padding: 5vh;
+    
+
+}
+.home-container h1{ 
+    width: 100%;
+    -webkit-text-stroke: 3vh #ff7b0098;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.home-container .intro p{
+    border-left: 1vh solid #ff7b00;
+    padding: 3vh;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.658);
+    font-weight: bold;
+    color:#4b0909;
+}
+.home-container img{
+    width: 20%;
+
+}
+
+.social-media{
+    position: relative;
+    top: -5vh;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.social-media img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 0.5vw 0.1vw rgba(0, 140, 186, 0.5);
+    border-radius: 15%;
+}

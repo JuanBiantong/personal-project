@@ -1,0 +1,118 @@
+.contact-container{
+    width: 90%;
+    position: relative;
+    margin: 0 5%;
+    background-image: linear-gradient(#ffffff, #ffffff, #ffffff,#ffffff,#ffffff, #048085,#048085, #048085);
+    border-radius: 0.5vh;
+    top: -10vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    font-size: 1vw;
+
+}
+
+.contact-container .contact-info{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: #474747;
+    padding: 2%;
+    border-radius: 2vh;
+}
+.contact-container .contact-info p{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+}
+
+.contact-container .contact-send{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #474747;
+    padding: 2%;
+    border-radius: 2vh;
+    background-color: #f1f1f1;
+    z-index: 9999;
+    box-shadow: 0 0 0.5vw 0.1vw #91919196;
+    position: relative;
+}
+.contact-container .contact-send:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 0.5vw 0.1vw rgba(0, 140, 186, 0.5);
+}
+.contact-container .contact-send h3{
+    margin-bottom: 3%;
+}
+.contact-container .contact-send input{
+    width: 100%;
+    margin-bottom: 3%;
+    padding: 2%;
+    font-size: 2vh;
+}
+input[type=text] {
+    border: 0.3vh solid #048085;
+    border-radius: 1vh;
+    outline-style: none;
+  }
+textarea[id=text] {
+    border: 0.3vh solid #048085;
+    border-radius: 1vh;
+    outline-style: none;
+}
+button{
+    margin: 1vh auto;
+    font-size: 1.5vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #048085;
+    border: none;
+    border-radius: 10vw;
+    box-shadow: 0 9px #fff;
+    width: 15vw;
+    padding: 0.5vw 1.5vw;
+}
+button:active{
+    background-color: #048085;
+    box-shadow: 0 0.1vw #fff;
+    transform: translateY(0.1vh);
+}
+
+.contact-container .contact-send textarea{
+    width: 100%;
+    margin-bottom: 3%;
+    padding: 2%;
+    font-size: 2vh;
+}
+.contact-container .contact-send button{
+    width: 100%;
+    margin-bottom: 3%;
+    padding: 2%;
+    font-size: 2vh;
+}
+
+.contact-container .box-info{
+    width: 100%;
+    height: 15vh;
+    background-color: #048085;
+    margin: auto;
+    position: relative;
+    top: -20vh;
+}
+
+.fa{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+span{
+    color: #f1f1f1;
+}
+
+
